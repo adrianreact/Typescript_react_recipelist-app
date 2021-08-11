@@ -1,0 +1,43 @@
+.recipe-list {
+  flex-basis: 50%;
+  margin-right: 5px;
+
+  .single-recipe {
+    background: #82caff;
+    color: #1b1b1b;
+    padding: 15px;
+    border: 2px solid #2878ca;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin: 0;
+    }
+
+    .recipe-name {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    b {
+      margin-bottom: 5px;
+      display: inline-block;
+    }
+
+    .info {
+      font-size: 14px;
+      display: flex;
+
+      .single-ingredient,
+      .single-step {
+        font-size: 12px;
+      }
+
+      .info-pane {
+        flex-basis: 50%;
+      }
+    }
+  }
+}

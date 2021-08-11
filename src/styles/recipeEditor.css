@@ -1,0 +1,11 @@
+.recipe-editor {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  background: #82caff;
+  color: #1b1b1b;
+  padding: 15px;
+  border: 2px solid #2878ca;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+/*# sourceMappingURL=recipeEditor.css.map */
